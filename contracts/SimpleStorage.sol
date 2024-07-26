@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 contract SimpleStorage {
-    int256 myFavoriteNumber = 13;
+    uint256 myFavoriteNumber = 13;
 
     uint256[] listOfFavoriteNumbers;
 
@@ -19,11 +19,11 @@ contract SimpleStorage {
 
     mapping (string => uint256) public nameToFavNumber;
 
-    function store(int256 newFavoriteNumber) public {
+    function store(uint256 newFavoriteNumber) public virtual {
         myFavoriteNumber = newFavoriteNumber;
     }
 
-    function get() public view returns (int256) {
+    function retrieve() public view returns (uint256) {
         return myFavoriteNumber;
     }
 

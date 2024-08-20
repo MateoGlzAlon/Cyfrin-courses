@@ -37,11 +37,30 @@
 						"internalType": "uint256",
 						"name": "_simpleStorageIndex",
 						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
 					},
 					{
-						"internalType": "int256",
+						"internalType": "uint256",
 						"name": "_newSimpleStorageNumber",
-						"type": "int256"
+						"type": "uint256"
 					}
 				],
 				"name": "sfStore",
@@ -78,19 +97,19 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x4f1add1cb32014e2505072d4dd60b994d0f93945e6491b307ca859185f33f649",
+			"keccak256": "0x46d579a0063f44bdc48ff9848ae95e9a1ee52368c5aee031dc7ee11752bd9aa2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5185920a313a0cdf5c90736ae4146795c8b0d7b2debe7b8db6e0edf75b1917fc",
-				"dweb:/ipfs/QmVABpzQMPxzdhEqSVdksJSdosSfE37GqwoMB4NLN3WHyY"
+				"bzz-raw://a7a435e2d925d2a020d2ece8923fcf968a1f8aacee8cbe7a92cdb088c1d88926",
+				"dweb:/ipfs/QmaFnGnNyXqQRxQc5TTiwCi6wT464a4P1YWGFf8vwk3Ejs"
 			]
 		},
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0x2e964ddbfd696b3bf8a845caecc5764d153759d6c85abd22883f20489f18b02a",
+			"keccak256": "0x7f736b8b9fc3b52bbcdaea500546dc4868966681e23cbd08c496cec322634151",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://778e796a66a35481a5e4507a88d336a3aabc05346e1ec728a9e7a3b24ae81fe2",
-				"dweb:/ipfs/QmaLUW6PgNuY3TMdnvgf2oGsw4zTRBSQveYV7GiCr99mKn"
+				"bzz-raw://b677905cdb16faa779de7530b74d5ab9232feb384f4c757dedd452f7db79214d",
+				"dweb:/ipfs/QmTbbSa2yRfhboavyMo8Lb9e1vCeDVePq9xuHKubQkvqKx"
 			]
 		}
 	},
